@@ -47,12 +47,6 @@ The drone features a **Peltier-based active cooling box** to maintain medicines 
 
 ## 🛠️ Hardware Architecture
 
-<p align="center">
-  <img src="images/hardware_overview.jpg" alt="Hardware Architecture" width="700"/>
-  <br/>
-  <em>System components — Flight Controller, Peltier Box, Telemetry Module</em>
-</p>
-
 ### Custom Flight Controllers
 
 <p align="center">
