@@ -3,6 +3,12 @@
 
 > Revolutionising Medicine Access for New India
 
+<p align="center">
+  <img src="images/drone_main.jpg" alt="DeliDrone in flight" width="700"/>
+  <br/>
+  <em>DeliDrone — Autonomous UAV with Peltier Cooling Box</em>
+</p>
+
 ---
 
 ## 📌 Overview
@@ -14,6 +20,10 @@ The drone features a **Peltier-based active cooling box** to maintain medicines 
 ---
 
 ## 🔥 The Problem
+
+<p align="center">
+  <img src="images/problem_stats.jpg" alt="Problem Statistics" width="650"/>
+</p>
 
 - **27.4%** of deaths worldwide are caused by poor access to drugs and medical facilities
 - In 2018, over **838 people died in India** due to insufficient access to healthcare
@@ -37,7 +47,19 @@ The drone features a **Peltier-based active cooling box** to maintain medicines 
 
 ## 🛠️ Hardware Architecture
 
+<p align="center">
+  <img src="images/hardware_overview.jpg" alt="Hardware Architecture" width="700"/>
+  <br/>
+  <em>System components — Flight Controller, Peltier Box, Telemetry Module</em>
+</p>
+
 ### Custom Flight Controllers
+
+<p align="center">
+  <img src="images/flight_controller.jpg" alt="Custom Flight Controller" width="500"/>
+  <br/>
+  <em>Left: ESP32-based 1st Prototype &nbsp;|&nbsp; Right: STM32F4-based 2nd Prototype</em>
+</p>
 
 **1st Prototype — ESP32-based**
 - MPU6050 (3-axis Gyroscope + Accelerometer)
@@ -54,6 +76,12 @@ The drone features a **Peltier-based active cooling box** to maintain medicines 
 - Range: **10m** (standalone), extendable with LoRa booster modules
 
 ### Peltier Cooling Box
+
+<p align="center">
+  <img src="images/peltier_box.jpg" alt="Peltier Cooling Box" width="500"/>
+  <br/>
+  <em>Peltier-based insulated medicine storage box — maintains 2–8°C during flight</em>
+</p>
 
 | Model | Qty | Voltage | Current | Avg Temp |
 |---|---|---|---|---|
@@ -79,6 +107,10 @@ Components: Peltier (TEC-12703), ESP32, DHT11, Cooler Fan, DRV8833 Current Contr
 | **Total** | **₹41,400** |
 
 ### 💡 Cost Innovation
+
+<p align="center">
+  <img src="images/cost_innovation.jpg" alt="Cost Comparison" width="600"/>
+</p>
 
 By replacing off-the-shelf components with custom-built alternatives:
 - **Custom Flight Controller** → **7x cheaper** than Pixhawk (target: ₹2,500)
@@ -109,6 +141,10 @@ By replacing off-the-shelf components with custom-built alternatives:
 
 ## 📈 Market Potential
 
+<p align="center">
+  <img src="images/market.jpg" alt="Market Potential" width="600"/>
+</p>
+
 - Global drone delivery market: **~$3 Billion (2024)**, growing rapidly
 - India's drone market accounted for **5.3%** of the global agriculture drones market in 2024
 - Target users: Elderly patients, hospitals, pharmacies, NGOs
@@ -116,7 +152,24 @@ By replacing off-the-shelf components with custom-built alternatives:
 
 ---
 
+## 🏆 Recognition
+
+<p align="center">
+  <img src="images/award.jpg" alt="Award at Vishwakarma 2024" width="600"/>
+  <br/>
+  <em>Team DeliDrone at the award ceremony</em>
+</p>
+
+- 🥇 Awarded at **Vishwakarma 2024**
+- 🥇 Awarded at **AIU Anveshan East Zone**
+
+---
+
 ## 👥 Team
+
+<p align="center">
+  <img src="images/team.jpg" alt="Team DeliDrone" width="600"/>
+</p>
 
 | Name | Branch | Certification |
 |---|---|---|
@@ -127,16 +180,29 @@ By replacing off-the-shelf components with custom-built alternatives:
 
 ---
 
-## 🏆 Recognition
+## 📁 Image Guide
 
-- 🥇 Awarded at **Vishwakarma 2024**
-- 🥇 Awarded at **AIU Anveshan East Zone**
+> Add your photos to an `images/` folder in the root of this repo and name them as below:
+
+| Filename | What to put |
+|---|---|
+| `images/drone_main.jpg` | Full drone photo / in-flight shot |
+| `images/problem_stats.jpg` | Screenshot of the problem slide or an infographic |
+| `images/hardware_overview.jpg` | All hardware components laid out |
+| `images/flight_controller.jpg` | PCB photos of both controller prototypes |
+| `images/peltier_box.jpg` | The cooling box — open or assembled |
+| `images/cost_innovation.jpg` | Custom FC/telemetry photo or cost comparison graphic |
+| `images/market.jpg` | Market chart / slide screenshot |
+| `images/award.jpg` | Award ceremony photo |
+| `images/team.jpg` | Team photo |
 
 ---
 
 ## 📜 License
 
-This project is open-source. Contributions are welcome.
+© 2024 Anurag Biswas, Sumanto Roy, Soumyadeep Das, Baibhab Adhikari. All rights reserved.
+
+This project and all associated hardware designs, firmware, software, and documentation are the intellectual property of the team. No part of this project may be reproduced, distributed, modified, or used in any form without explicit written permission from the authors.
 
 ---
 
