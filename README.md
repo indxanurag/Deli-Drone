@@ -47,6 +47,12 @@ The drone features a **Peltier-based active cooling box** to maintain medicines 
 
 ## 🛠️ Hardware Architecture
 
+<p align="center">
+  <img src="images/hardware_overview.jpg" alt="Hardware Architecture" width="700"/>
+  <br/>
+  <em>System components — Flight Controller, Peltier Box, Telemetry Module</em>
+</p>
+
 ### Custom Flight Controllers
 
 <p align="center">
@@ -149,13 +155,14 @@ By replacing off-the-shelf components with custom-built alternatives:
 ## 🏆 Recognition
 
 <p align="center">
-  <img src="images/award.jpg" alt="Award at Vishwakarma 2024" width="600"/>
+  <img src="images/award.jpg" alt="Award Ceremonies" width="600"/>
   <br/>
-  <em>Team DeliDrone at the award ceremony</em>
+  <em>Team DeliDrone at the award ceremonies</em>
 </p>
 
-- 🥇 Awarded at **Vishwakarma 2024**
-- 🥇 Awarded at **AIU Anveshan East Zone**
+- 🥇 **Vishwakarma Awards for Engineering Innovation 2024**
+- 🥇 **GKCEM 2024**
+- 🥇 **HIT 2024**
 
 ---
 
